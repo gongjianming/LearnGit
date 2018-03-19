@@ -1,0 +1,2 @@
+Git is an tool to manage the version of your code.
+It's convenient and easy to learn.
