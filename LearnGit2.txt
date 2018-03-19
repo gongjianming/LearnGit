@@ -3,4 +3,9 @@ It's convenient and easy to learn.
 
 YES,I can make it.
 
-just try your best!
+Just try your best!
+
+Maybe you should change some codes to practice the git commit skills.
+ 
+
+
