@@ -5,3 +5,5 @@ Term 1: I want to commit this term to github(account:hubeigjm@163.com).
 
 Term 2: I added a term in Date:03/19/2018 16£º04
 
+git diff
+To see the difference between the file and the former version.
