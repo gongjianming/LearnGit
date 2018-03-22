@@ -1,0 +1,5 @@
+
+git stash
+
+save workspace before you do other things.
+
