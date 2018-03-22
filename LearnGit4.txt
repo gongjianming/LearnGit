@@ -41,4 +41,8 @@ git checkout -b dev
 É¾³ı·ÖÖ§£ºgit branch -d <name>
 
 
+
 add some message in branch master.
+
+create new branch feature1.
+add some message in LearnGit.txt in beanch feature1.
