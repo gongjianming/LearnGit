@@ -3,4 +3,12 @@ new feature development
 
 创建feature分支，添加好后，merge进去，避免污染别的
 
+git checkout -b feature-signin
+
+
+强行删除分支
+git branch -D feature-vulcan
+
+
+
 
