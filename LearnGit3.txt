@@ -3,3 +3,6 @@ LearnGit3
 git reset --hard HEAD
 
 git reset --hard versionID
+
+
+
