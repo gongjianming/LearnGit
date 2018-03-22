@@ -1,12 +1,22 @@
 git
 
 
-git checkout
-
 back to the situation before.
+git checkout
 
 
 create new branch.
 git branch dev
 git checkout dev
 
+
+delate branch.
+git branch -d dev
+
+
+show all branches.
+git branch
+
+
+merge branches  dev to master.
+git merge dev
