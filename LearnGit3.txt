@@ -1,7 +1,5 @@
 LearnGit3
 
+git reset --hard HEAD
 
-
-git  
-
-back to the past 
+git reset --hard versionID
