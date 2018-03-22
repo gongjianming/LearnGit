@@ -1,0 +1,7 @@
+git
+
+
+git checkout
+
+back to the situation before.
+
