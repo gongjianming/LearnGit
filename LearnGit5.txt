@@ -3,3 +3,26 @@ git stash
 
 save workspace before you do other things.
 
+
+xxxxxxxxxxxxxx
+some work need to do .
+but now I have to do another thing immediately.
+so I need to save the work space before I take on others.
+
+
+查看保存好的stash
+git stash list
+
+恢复stash
+
+1.
+git stash apply 恢复stash
+git stash drop  删除stash
+
+2.
+git stash pop  恢复并删除stash
+
+
+
+多个stash时，可以用一下命令恢复其中一个
+git stash apply stash@{0}
