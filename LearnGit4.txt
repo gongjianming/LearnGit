@@ -46,3 +46,41 @@ add some message in branch master.
 
 create new branch feature1.
 add some message in LearnGit.txt in beanch feature1.
+
+
+
+当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+
+用git log --graph命令可以看到分支合并图。
+图形化显示分支情况
+git log --graph --pretty=oneline --abbrev-commit
+*   a5f2d78 conflict fixed
+|\
+| * c283785 add some message in new branch
+* | cd4f2e6 add some message in LearnGit4.txt in branch master
+|/
+* f45238f add introduce of git branch
+* 5e377ef add git branch, git merge,git branch -d dev
+* f247d4c new branch dev
+* d53851f create file LearnGit4.txt
+* 7bab1e6 git reset over
+* 8e68acb reset
+* 5efad6e learn to back to the past
+* 2447977 git diff practice
+* 6cd3d5f add Date
+* 19c7769 add LearnGit3
+* 296ec8c Create README.md
+* 944db41 change symbol ':' to English symbol
+* 8ea1abd add Date
+* 1d0baaf practice to use the Git-commit
+* 6572139 add yes
+* f9f40da Created a new file by Jimmy!
+* 2ed4f96 added a term in LearnGit.txt
+* e10d4bc my first commit
+
+git merge --no-ff -m "merge with no-ff" dev
+因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。
+合并分支时，加上--no-ff参数就可以用普通模式合并，
+合并后的历史有分支，能看出来曾经做过合并，
+而fast forward合并就看不出来曾经做过合并。
+
